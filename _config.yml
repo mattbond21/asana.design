@@ -1,1 +1,12 @@
-theme: jekyll-theme-cayman
+# Permalinks
+permalink: pretty
+
+# Compile CSS
+sass:
+  style: compressed
+sass:
+  sass_dir: _sass
+
+# Setup
+title:            Asana Design
+tagline:          'The design system for Asana Product Design'
