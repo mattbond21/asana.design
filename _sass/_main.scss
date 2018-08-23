@@ -16,13 +16,17 @@ html {
     font-size: 16px;
     line-height: 1.5;
     font-family: Gordita, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background: $white;
+    background: $gray-1;
     text-rendering: optimizeLegibility;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga" on;
+}
+
+body {
+  background-repeat: no-repeat;
 }
 
 /*
@@ -558,6 +562,17 @@ a.btn {
     color: $darkBlue;
   }
 }
+
+
+/* ==========================================================================
+   Images
+   ========================================================================== */
+
+
+
+
+
+
 
 
 /* ==========================================================================
