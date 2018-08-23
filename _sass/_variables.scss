@@ -50,3 +50,64 @@ $coral: #ff5263;
 $brightCoral: #ff7381;
 $medCoral: #ff9ca5;
 $lightCoral: #ffedef;
+
+/* Fonts  -------------------*/
+@font-face {
+    font-family: 'Gordita';
+    src: url('../fonts/hinted-Gordita-Bold.eot');
+    src: url('../fonts/hinted-Gordita-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-Gordita-Bold.woff2') format('woff2'),
+        url('../fonts/hinted-Gordita-Bold.woff') format('woff'),
+        url('../fonts/hinted-Gordita-Bold.ttf') format('truetype'),
+        url('../fonts/hinted-Gordita-Bold.svg#Gordita-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../fonts/hinted-Gordita-Black.eot');
+    src: url('../fonts/hinted-Gordita-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-Gordita-Black.woff2') format('woff2'),
+        url('../fonts/hinted-Gordita-Black.woff') format('woff'),
+        url('../fonts/hinted-Gordita-Black.ttf') format('truetype'),
+        url('../fonts/hinted-Gordita-Black.svg#Gordita-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../fonts/hinted-Gordita-Regular.eot');
+    src: url('../fonts/hinted-Gordita-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-Gordita-Regular.woff2') format('woff2'),
+        url('../fonts/hinted-Gordita-Regular.woff') format('woff'),
+        url('../fonts/hinted-Gordita-Regular.ttf') format('truetype'),
+        url('../fonts/hinted-Gordita-Regular.svg#Gordita-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../fonts/hinted-Gordita-Medium.eot');
+    src: url('../fonts/hinted-Gordita-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-Gordita-Medium.woff2') format('woff2'),
+        url('../fonts/hinted-Gordita-Medium.woff') format('woff'),
+        url('../fonts/hinted-Gordita-Medium.ttf') format('truetype'),
+        url('../fonts/hinted-Gordita-Medium.svg#Gordita-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gordita';
+    src: url('../fonts/hinted-Gordita-Light.eot');
+    src: url('../fonts/hinted-Gordita-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-Gordita-Light.woff2') format('woff2'),
+        url('../fonts/hinted-Gordita-Light.woff') format('woff'),
+        url('../fonts/hinted-Gordita-Light.ttf') format('truetype'),
+        url('../fonts/hinted-Gordita-Light.svg#Gordita-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}

@@ -15,7 +15,7 @@ html {
     color: $gray-10;
     font-size: 16px;
     line-height: 1.5;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Gordita, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     background: $white;
     text-rendering: optimizeLegibility;
     -ms-text-size-adjust: 100%;
@@ -99,7 +99,7 @@ textarea {
 
 h1, h2, h3, h4,
 .h1, .h2, .h3, .h4 {
- font-weight: 500;
+ font-weight: 400;
  color: $gray-10;
 }
 
@@ -122,8 +122,10 @@ h4:first-child, .h4:first-child {
 }
 
 h1, .h1 {
- font-size: 32px;
- line-height: 40px;
+ font-size: 45px;
+ line-height: 58px;
+ letter-spacing: 0.2px;
+ font-weight: 300;
 }
 
 h2, .h2 {
@@ -131,8 +133,9 @@ h2, .h2 {
  line-height: 32px;
 }
 h3, .h3 {
- font-size: 20px;
- line-height: 28px;
+ font-size: 18px;
+ line-height: 31px;
+ color: $gray-8;
 }
 h4, .h4 {
  font-size: 16px;
@@ -165,9 +168,9 @@ a:hover {
 }
 
 .logo {
-  margin: 0 0 24px 44px;
-  width: 160px;
-  height: 30px;
+  margin: 40px 0px;
+  width: 193px;
+  height: 22px;
 }
 
 .logo > a,
@@ -385,166 +388,6 @@ th:last-child {
   font-size: 14px;
 }
 
-/* Swatches
-================================================================ */
-
-.color-swatch {
-  margin: 8px;
-  border-radius: 6px;
-  background-color: $gray-1;
-}
-
-.color-swatch-header {
-  position: relative;
-  height: 0;
-  padding-bottom: 100px;
-  border-radius: 6px 6px 0 0;
-  border: 1px solid transparent;
-}
-
-.color-swatch-body {
-  padding: 0 16px 16px 16px;
-}
-.color-swatch-body > h5 {
-  margin-top: 12px;
-  margin-bottom: 0px;
-}
-.color-swatch-table {
-  width: 48px;
-  height: 48px;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  margin-right: 16px;
-  display: inline-block;
-}
-
-
-.color-swatch-dark-blue {
-  background-color: $darkBlue;
-}
-.color-swatch-blue {
-  background-color: $blue;
-}
-.color-swatch-bright-blue {
-  background-color: $brightBlue;
-}
-.color-swatch-med-blue {
-  background-color: $medBlue;
-}
-.color-swatch-light-blue {
-  background-color: $lightBlue;
-}
-
-.color-swatch-dark-gold {
-  background-color: $darkGold;
-}
-.color-swatch-gold {
-  background-color: $gold;
-}
-.color-swatch-bright-gold {
-  background-color: $brightGold;
-}
-.color-swatch-med-gold {
-  background-color: $medGold;
-}
-.color-swatch-light-gold {
-  background-color: $lightGold;
-}
-
-.color-swatch-dark-green {
-  background-color: $darkGreen;
-}
-.color-swatch-green {
-  background-color: $green;
-}
-.color-swatch-bright-green {
-  background-color: $brightGreen;
-}
-.color-swatch-med-green {
-  background-color: $medGreen;
-}
-.color-swatch-light-green {
-  background-color: $lightGreen;
-}
-.color-swatch-faded-green {
-  background-color: $fadedGreen;
-}
-
-.color-swatch-dark-purple {
-  background-color: $darkPurple;
-}
-.color-swatch-purple {
-  background-color: $purple;
-}
-.color-swatch-bright-purple {
-  background-color: $brightPurple;
-}
-.color-swatch-med-purple {
-  background-color: $medPurple;
-}
-.color-swatch-light-purple {
-  background-color: $lightPurple;
-}
-
-.color-swatch-dark-coral {
-  background-color: $darkCoral;
-}
-.color-swatch-coral {
-  background-color: $coral;
-}
-.color-swatch-bright-coral {
-  background-color: $brightCoral;
-}
-.color-swatch-med-coral {
-  background-color: $medCoral;
-}
-.color-swatch-light-coral {
-  background-color: $lightCoral;
-}
-
-.color-swatch-white {
-  background-color: $white;
-  border-color: $gray-3;
-}
-.color-swatch-gray-1 {
-  background-color: $gray-1;
-}
-.color-swatch-gray-2 {
-  background-color: $gray-2;
-}
-.color-swatch-gray-3 {
-  background-color: $gray-3;
-}
-.color-swatch-gray-4 {
-  background-color: $gray-4;
-}
-.color-swatch-gray-5 {
-  background-color: $gray-5;
-}
-.color-swatch-gray-6 {
-  background-color: $gray-6;
-}
-.color-swatch-gray-7 {
-  background-color: $gray-7;
-}
-.color-swatch-gray-8 {
-  background-color: $gray-8;
-}
-.color-swatch-gray-9 {
-  background-color: $gray-9;
-}
-.color-swatch-gray-10 {
-  background-color: $gray-10;
-}
-
-.illo-download {
-  border: 1px solid transparent;
-  border-radius: 8px;
-}
-
-.illo-download:hover {
-  border: 1px solid $gray-4;
-}
 
 /* Videos */
 
