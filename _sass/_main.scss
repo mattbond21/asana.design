@@ -350,7 +350,7 @@ th:last-child {
   vertical-align: top;
   text-align: left;
   width: 100%;
-  height: 420px;
+  height: 500px;
   margin: 10px 0;
   border-radius: 3px;
   white-space: normal;
@@ -368,7 +368,7 @@ th:last-child {
 }
 
 .card-top {
-  height: 210px;
+  height: 300px;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   background: $gray-2;
@@ -430,19 +430,18 @@ th:last-child {
   background-image: url('../images/icons/icon-arrow-coral.png');
 }
 
+
 /* Card details */
 
 .card-future-work {
   background: $white url('../images/articles/future-of-work.png') center center no-repeat;
-  background-size: 300px;
+  background-size: 600px;
 }
 
 .card-design-systems {
   background: $white url('../images/articles/design-systems.png') center center no-repeat;
-  background-size: 300px;
+  background-size: 600px;
 }
-
-
 
 
 /* Videos */
@@ -479,72 +478,6 @@ th:last-child {
   transform: translate(0,-2px);
   transition-delay: 0s !important;
 }
-
-/* ==========================================================================
-   Pagination nav
-   ========================================================================== */
-
-.row.pagination-links {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.pagination-links {
-  background: $gray-1;
-  border-radius: 4px;
-  margin: 120px 0 40px 0;
-}
-
-a.next-previous-links:hover {
-  text-decoration: none;
-}
-
-.next,
-.previous {
-  padding: 24px;
-  color: $gray-7;
-}
-
-.next {
-  text-align: right;
-}
-
-a.next-previous-links:hover > .next > .title,
-a.next-previous-links:hover > .previous > .title {
-  color: $coral;
-}
-
-.title {
-  color: $gray-10;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.next > .title {
-  margin-right: 24px;
-}
-
-.previous > .title {
-  margin-left: 24px;
-}
-
-.icon-20 {
-  display: inline-block;
-  margin: -4px 0;
-  width: 20px;
-  height: 20px;
-}
-
-.icon-20-chevron-right {
-    background: url('../images/icons/icon-20-right-chevron.png') no-repeat;
-    background-size: 100%;
-}
-
-.icon-20-chevron-left {
-    background: url('../images/icons/icon-20-left-chevron.png') no-repeat;
-    background-size: 100%;
-}
-
 
 /* ==========================================================================
    Footer links
