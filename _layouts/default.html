@@ -6,20 +6,26 @@
 <body>
 
     <div class="container header">
-      <div class="logo">
-        <img src="{{ baseurl.site }}/images/logo/logo.png" alt="Asana Design">
-      </div>
-    </div>
-
-    <div class="container main-section">
       <div class="row">
-        <div class="col">
-            {{ content }}
+        <div class="six-col">
+          <div class="logo">
+            <img src="{{ baseurl.site }}/images/logo/logo.png" alt="Asana Design">
+          </div>
+        </div>
+        <div class="six-col">
+          <nav class="nav-tabs">
+            <a href="https://medium.com/asana-design" target="_blank">Articles</a>
+            <a href="https://asana.com/jobs/product" target="_blank">Work with us</a>
+          </nav>
         </div>
       </div>
     </div>
 
+    {{ content }}
+
     {% include footer.html %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102341116-2"></script>
@@ -30,7 +36,6 @@
 
       gtag('config', 'UA-102341116-2');
     </script>
-
 
 </body>
 
