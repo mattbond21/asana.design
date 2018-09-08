@@ -133,22 +133,23 @@ h2, .h2 {
  line-height: 32px;
 }
 h3, .h3 {
- font-size: 18px;
- line-height: 31px;
+ font-size: 16px;
+ line-height: 24px;
  color: $gray-8;
 }
 h4, .h4 {
- font-size: 16px;
- line-height: 24px;
+ font-size: 14px;
+ line-height: 20px;
  letter-spacing: -0.2px;
 }
 
 h5 {
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 11px;
+  letter-spacing: 1px;
+  font-size: 10px;
   color: $gray-8;
+  margin-top: 10px;
 }
 
 h6 {
@@ -184,8 +185,8 @@ a:hover {
 
 .logo {
   margin: 40px 0px;
-  width: 193px;
-  height: 22px;
+  width: 195px;
+  height: 30px;
 }
 
 .logo > a,
@@ -218,6 +219,10 @@ span.heading-border {
   height: 2px;
   display: block;
   margin: 32px 0 48px 0;
+}
+
+h3.design-team-subline {
+  padding-right: 50px;
 }
 
 .hr {
@@ -294,39 +299,6 @@ li {
 }
 
 
-/* =================================================
-  Tables */
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 32px;
-}
-thead {
-  border-bottom: 2px solid $gray-3;
-}
-tr {
-  border-bottom: 1px solid $gray-3;
-}
-td,
-th {
-  border: none;
-  padding: 12px 8px;
-  text-align: left;
-}
-th {
-  vertical-align: top;
-}
-td:first-child,
-th:first-child {
-  padding-left: 0;
-}
-td:last-child,
-th:last-child {
-  padding-right: 0;
-}
-
-
 /* Header */
 
 .header {
@@ -350,7 +322,7 @@ th:last-child {
   vertical-align: top;
   text-align: left;
   width: 100%;
-  height: 500px;
+  height: 440px;
   margin: 10px 0;
   border-radius: 3px;
   white-space: normal;
@@ -368,7 +340,7 @@ th:last-child {
 }
 
 .card-top {
-  height: 300px;
+  height: 260px;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   background: $gray-2;
@@ -414,7 +386,6 @@ th:last-child {
 .card-footer-wrapper {
     height: 48px;
     line-height: 48px;
-    border-top: 1px solid $gray-2;
 }
 
 .card-arrow {
@@ -486,7 +457,7 @@ th:last-child {
 
 #footer-links {
   float: right;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 #footer-links > ul > a,
@@ -514,11 +485,11 @@ th:last-child {
 }
 
 .logo-footer {
-  bottom: -18px;
-  background: $darkCoral url('../images/logo/footer-logo.png') no-repeat center center;
+  top: 4px;
+  background: url('../images/logo/footer-logo.png') no-repeat center center;
   background-size: 50%;
-  width: 250px;
-  height: 44px;
+  width: 280px;
+  height: 40px;
   display: inline-block;
   position: relative;
 }
@@ -558,19 +529,19 @@ th:last-child {
 
 
 li.twitter-footer {
-  background: url('../images/social/logo-twitter-footer.svg');
+  background: url('../images/social/logo-twitter.svg');
 }
 
 li.instagram-footer {
-  background: url('../images/social/logo-instagram-footer.svg');
+  background: url('../images/social/logo-instagram.svg');
 }
 
 li.medium-footer {
-  background: url('../images/social/logo-medium-footer.svg');
+  background: url('../images/social/logo-medium.svg');
 }
 
 li.dribbble-footer {
-  background: url('../images/social/logo-dribbble-footer.svg');
+  background: url('../images/social/logo-dribbble.svg');
 }
 
 li.twitter {
@@ -625,7 +596,6 @@ ul.link-list > a {
 
 ul.link-list > a:hover {
   text-decoration: none;
-  color: $coral;
 }
 
 ul.link-list > a:hover > li {
@@ -739,21 +709,29 @@ nav a {
    ========================================================================== */
 
 .hero {
-  margin-bottom: 60px;
+  margin-bottom: 140px;
 }
 
 .about-push-down {
   margin-top: 190px;
 }
 
+.video-player > a > img {
+  border-radius: 3px;
+}
+
 .section-divider {
-  margin: 60px 0 60px 0;
+  margin: 80px 0 60px 0;
   border-top: 1px solid $gray-3;
 }
 
 .section-divider-vision {
-  margin: 60px 0 60px 0;
-  border-top: 1px solid $gray-8;
+  margin: 80px 0 100px 0;
+  border-top: 1px solid $gray-9;
+}
+
+.link-block > h5 {
+  margin-left: 15px;
 }
 
 .designer-block {
@@ -783,28 +761,32 @@ nav a {
 .designer-headshot {
   max-width: 220px;
   max-height: 220px;
+  margin: 0 auto;
 }
+
+// .sticky-sidebar {
+//   position: fixed;
+//   top: 10px;
+// }
 
 #team-section {
   background: $white;
-  margin-top: 40px;
-  padding-bottom: 80px;
+  margin-top: 100px;
+  padding-bottom: 100px;
   width: 100%;
 }
 
 #vision-section {
   background: #020304;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
   width: 100%;
 }
 
 #footer-section {
-  padding-top: 30px;
   color: $gray-6;
-  background: #020304;
+  background: $white;
   width: 100%;
 }
-
 
 .inner-container {
   width: 1200px;
@@ -985,7 +967,7 @@ nav a {
 }
 
 
-@media (max-width: 1199px) {
+@media (max-width: 499px) {
 
   .nav-tabs,
   .mobile-hide,
@@ -1039,6 +1021,11 @@ nav a {
   #vision-section {
     padding-bottom: 0;
   }
+
+  h3.design-team-subline {
+    padding-right: 0;
+  }
+
 
 
 }
