@@ -130,16 +130,17 @@ h1, .h1 {
 
 h2, .h2 {
  font-size: 24px;
- line-height: 32px;
+ line-height: 36px;
 }
 h3, .h3 {
- font-size: 16px;
- line-height: 24px;
+ font-size: 18px;
+ line-height: 32px;
  color: $gray-8;
 }
 h4, .h4 {
- font-size: 14px;
- line-height: 20px;
+ font-size: 16px;
+ line-height: 28px;
+ color: $gray-8;
  letter-spacing: -0.2px;
 }
 
@@ -205,24 +206,10 @@ p.vision-text {
   color: $gray-2;
 }
 
-span.date {
-  display: inline-block;
-  color: $gray-8;
-  font-size: 20px;
-  font-weight: 400;
-  margin-left: 10px;
-}
-
-span.heading-border {
-  background: $gray-3;
-  width: 50px;
-  height: 2px;
-  display: block;
-  margin: 32px 0 48px 0;
-}
-
 h3.design-team-subline {
   padding-right: 50px;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .hr {
@@ -527,22 +514,6 @@ li {
   margin: 50px 0 15px 0;
 }
 
-
-li.twitter-footer {
-  background: url('../images/social/logo-twitter.svg');
-}
-
-li.instagram-footer {
-  background: url('../images/social/logo-instagram.svg');
-}
-
-li.medium-footer {
-  background: url('../images/social/logo-medium.svg');
-}
-
-li.dribbble-footer {
-  background: url('../images/social/logo-dribbble.svg');
-}
 
 li.twitter {
   background: url('../images/social/logo-twitter.svg');
