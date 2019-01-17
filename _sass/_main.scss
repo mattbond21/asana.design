@@ -401,6 +401,11 @@ li {
   background-size: 600px;
 }
 
+.card-timeline {
+  background: $white url('../images/articles/timeline.png') center center no-repeat;
+  background-size: 600px;
+}
+
 
 /* Videos */
 
@@ -997,6 +1002,8 @@ nav a {
     padding-right: 0;
   }
 
-
+  ul.link-list > a > li > span {
+    top: 3px;
+  }
 
 }
