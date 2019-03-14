@@ -856,9 +856,6 @@ nav a {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
@@ -947,7 +944,7 @@ nav a {
 }
 
 
-@media (max-width: 499px) {
+@media (max-width: 699px) {
 
   .nav-tabs,
   .mobile-hide,
