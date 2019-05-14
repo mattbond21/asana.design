@@ -355,19 +355,15 @@ li {
 .card-footer {
   font-size: 10px;
   font-weight: 500;
-  letter-spacing: 1.5px;
+  letter-spacing: .75px;
   text-transform: uppercase;
-  color: $gray-7;
+  color: $gray-8;
   position: absolute;
   padding-left: 20px;
   padding-right: 20px;
   bottom: 0px;
   margin: 0 auto;
   width: 100%;
-}
-
-.card:hover > .card-footer {
-  color: $coral;
 }
 
 .card-footer-wrapper {
@@ -445,6 +441,35 @@ li {
   transform: translate(0,-2px);
   transition-delay: 0s !important;
 }
+
+
+
+/* ==========================================================================
+   Stamps
+   ========================================================================== */
+
+div.stamps {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  z-index: 1;
+  width: 80px;
+}
+
+div.stamps img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+  animation: fade-out 2s ease-in-out forwards;
+  animation-delay: 4s;
+}
+
+@keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
 
 /* ==========================================================================
    Footer links
@@ -648,7 +673,7 @@ nav a {
 }
 
 .nav-tabs a {
-  color: $gray-7;
+  color: $gray-8;
   padding: 10px 0;
 }
 
@@ -687,6 +712,7 @@ nav a {
 /* ==========================================================================
    Misc
    ========================================================================== */
+
 
 .hero {
   margin-bottom: 140px;
@@ -744,10 +770,13 @@ nav a {
   margin: 0 auto;
 }
 
-// .sticky-sidebar {
-//   position: fixed;
-//   top: 10px;
-// }
+#sticky-design-team {
+  position: sticky;
+  top: 0px;
+  height: 340px;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
 
 #team-section {
   background: $white;
