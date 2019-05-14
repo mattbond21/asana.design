@@ -1,5 +1,5 @@
 # asana.design
-The page for the Asana Design team.
+Asana has a bold, audacious mission: we want to make teamwork effortless, smart, and beautiful for every team. Our design team of brand, and product designers are at the heart of that mission.
 
 ## Dependencies
 
