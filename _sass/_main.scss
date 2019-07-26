@@ -439,13 +439,13 @@ li {
   transition: all 200ms cubic-bezier(.02, .01, .47, 1);
 }
 
-.video-player:hover > .video-button {
-  box-shadow: 0 20px 30px rgba(36,50,66,.15);
-  background: $white url('../images/video-button-hover.png') no-repeat center center;
-  background-size: 100%;
-  transform: translate(0,-2px);
-  transition-delay: 0s !important;
-}
+// .video-player:hover > .video-button {
+//   box-shadow: 0 20px 30px rgba(36,50,66,.15);
+//   background: $white url('../images/video-button-hover.png') no-repeat center center;
+//   background-size: 100%;
+//   transform: translate(0,-2px);
+//   transition-delay: 0s !important;
+// }
 
 
 
@@ -460,6 +460,7 @@ div.stamps {
   width: 50%;
   z-index: 1;
   width: 80px;
+  pointer-events: none;
 }
 
 div.stamps img {
